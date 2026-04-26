@@ -78,10 +78,10 @@ dotnet run --project Kelio.DiagnosticRunner/Kelio.DiagnosticRunner.csproj
 
 ### Run the Function App locally
 
-Use a local `Kelio.FunctionApp/local.settings.json` with your own values, then start the app with your preferred Azure Functions workflow.
+Use `Kelio.FunctionApp/local.settings.example.json` as the starting template, copy it to `Kelio.FunctionApp/local.settings.json`, fill in your own values, and then start the app with your preferred Azure Functions workflow.
 
 ## Notes
 
-- `local.settings.json` in source control should remain a template only.
+- `local.settings.json` should stay out of source control.
 - Secrets should stay in Azure App Settings or another secret store.
 - The repo intentionally excludes build output and local runtime artifacts.
