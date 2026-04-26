@@ -1,2 +1,29 @@
-/bin
-/obj
+# Build output
+bin/
+obj/
+
+# Visual Studio / VS Code
+.vs/
+*.user
+*.suo
+*.userprefs
+
+# Local function settings and secrets
+Kelio.FunctionApp/local.settings.json
+appsettings.Development.json
+.env
+.env.*
+
+# Playwright and test artifacts
+playwright-report/
+test-results/
+ms-playwright/
+
+# Runtime/debug artifacts
+output/
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
